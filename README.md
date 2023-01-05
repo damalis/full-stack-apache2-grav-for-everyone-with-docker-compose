@@ -201,7 +201,7 @@ docker compose up -d
 
 ### Website
 
-You should see the "Welcome! You have successfully installed the Fuel PHP Framework." page in your browser. If not, please check if your PHP installation satisfies Grav's requirements.
+You should see the "Say Hello to Grav! installation successful..." page in your browser. If not, please check if your PHP installation satisfies Grav's requirements.
 
 ```
 https://example.com
