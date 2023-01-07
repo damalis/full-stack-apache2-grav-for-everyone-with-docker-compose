@@ -66,7 +66,7 @@ Make sure you have the latest versions of **Docker** and **Docker Compose** inst
 - [How install docker](https://docs.docker.com/engine/install/)
 - [How install docker compose](https://docs.docker.com/compose/install/)
 
-Clone this repository or copy the files from this repository into a new folder. In the **docker-compose.yml** file you may change the database from MariaDB to MySQL.
+Clone this repository or copy the files from this repository into a new folder.
 
 Make sure to [add your user to the `docker` group](https://docs.docker.com/install/linux/linux-postinstall/#manage-docker-as-a-non-root-user).
 
@@ -270,7 +270,7 @@ The Cache section is where you can configure the site's caching settings. You ca
 
 ### backup
 
-This will back up the all files and folders in database/dump sql and html volumes, once per day, and write it to ./backups with a filename like backup-2023-01-01T10-18-00.tar.gz
+This will back up the all files and folders in html volumes, once per day, and write it to ./backups with a filename like backup-2023-01-01T10-18-00.tar.gz
 
 #### can run on a custom cron schedule
 
