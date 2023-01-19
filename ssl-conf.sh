@@ -49,4 +49,4 @@ else
 	reload_webserver "$3"
 fi
 
-httpd-foreground
+exec httpd-foreground
