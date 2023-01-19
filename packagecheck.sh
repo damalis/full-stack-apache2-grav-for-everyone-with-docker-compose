@@ -16,7 +16,7 @@ for pkg in $PACKAGES; do
 done
 
 if "$install"; then
-	apt-get install -y $notinstall_pkgs && rm -rf /var/lib/apt/lists/*
+	apt-get install -y --no-install-recommends $notinstall_pkgs && rm -rf /var/lib/apt/lists/*
 else
 	echo "### WARNING ${installed_pkgs} Package[s] already installed. ###"
 fi
