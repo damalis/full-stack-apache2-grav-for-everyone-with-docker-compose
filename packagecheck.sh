@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PACKAGES='libyaml-dev unzip g++ git cron vim'
+PACKAGES=$1
 
 notinstall_pkgs=""
 install=false
